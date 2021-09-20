@@ -7,6 +7,7 @@ import List3 from "./List3";
 import List4 from "./List4";
 import Swiggy from "./Logo.webp";
 const Footer = () => {
+  let ccc = "#";
   return (
     <div className="foot">
       <div className="footContainer">
@@ -14,33 +15,81 @@ const Footer = () => {
           <div className="fddf">
             <div className="head">COMPANY</div>
             <ul className="uList">
-              <li>About us</li>
-              <li>Team</li>
-              <li>Careers</li>
-              <li>Swiggy Blog</li>
-              <li>Bug Bounty</li>
-              <li>Swiggy Super</li>
-              <li>Swiggy Corporate</li>
-              <li>Swiggy Instamart</li>
+              <a href={ccc}>
+                <li>About us</li>
+              </a>
+              <a href={ccc}>
+                {" "}
+                <li>Team</li>
+              </a>
+              <a href={ccc}>
+                {" "}
+                <li>Careers</li>
+              </a>
+              <a href={ccc}>
+                {" "}
+                <li>Swiggy Blog</li>
+              </a>
+              <a href={ccc}>
+                {" "}
+                <li>Bug Bounty</li>
+              </a>
+              <a href={ccc}>
+                {" "}
+                <li>Swiggy Super</li>
+              </a>
+              <a href={ccc}>
+                {" "}
+                <li>Swiggy Corporate</li>
+              </a>
+              <a href={ccc}>
+                {" "}
+                <li>Swiggy Instamart</li>
+              </a>
             </ul>
           </div>
           <div className="fddf">
             <div className="head">CONTACT</div>
             <ul className="uList">
-              <li> Help & Support</li>
-              <li> Partner with us</li>
-              <li> Ride with us</li>
+              <a href={ccc}>
+                <li> Help & Support</li>
+              </a>
+              <a href={ccc}>
+                {" "}
+                <li> Partner with us</li>
+              </a>
+              <a href={ccc}>
+                {" "}
+                <li> Ride with us</li>
+              </a>
             </ul>
           </div>
           <div className="fddf">
             <div className="head">Legal</div>
             <ul className="uList">
-              <li>Terms & Conditions</li>
-              <li>Refund & Cancellation</li>
-              <li>Privacy Policy</li>
-              <li>Cookie Policy</li>
-              <li>Offer Terms</li>
-              <li>Phishing & Fraud</li>
+              <a href={ccc}>
+                <li>Terms & Conditions</li>
+              </a>
+              <a href={ccc}>
+                {" "}
+                <li>Refund & Cancellation</li>
+              </a>
+              <a href={ccc}>
+                {" "}
+                <li>Privacy Policy</li>
+              </a>
+              <a href={ccc}>
+                {" "}
+                <li>Cookie Policy</li>
+              </a>
+              <a href={ccc}>
+                {" "}
+                <li>Offer Terms</li>
+              </a>
+              <a href={ccc}>
+                {" "}
+                <li>Phishing & Fraud</li>
+              </a>
             </ul>
           </div>
           <div className="fddf">
@@ -66,7 +115,9 @@ const Footer = () => {
               alt=" "
             />
           </div>
-          <div className="fddf" style={{ fontSize: "24px" }}>© 2021 Swiggy</div>
+          <div className="fddf" style={{ fontSize: "24px" }}>
+            © 2021 Swiggy
+          </div>
           <div className="fddf" style={{ width: "15%" }}>
             <i className="fab fa-facebook-f"> </i>
             <i className="fab fa-pinterest-p"> </i>
