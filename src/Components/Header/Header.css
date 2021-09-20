@@ -54,6 +54,9 @@
 .hidden {
   overflow: hidden;
 }
+*{
+  font-family: 'Montserrat', sans-serif;
+}
 @media only screen and (max-width: 500px) {
   .imgContainer{
     flex-basis: 0;
