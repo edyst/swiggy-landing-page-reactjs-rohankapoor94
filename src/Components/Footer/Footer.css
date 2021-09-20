@@ -2,19 +2,31 @@
   font-size: 15px;
   background-color: #000;
   padding-bottom: 4%;
+  /* outline: 2px solid red; */
+  width: max-content;
+  overflow-x: hidden;
+  /* width: 99vw; */
 }
+  /* *{
+    outline: 2px solid red;
+  } */
 .footContainer {
-  min-width: 1200px;
-  max-width: 1200px;
+   /* min-width: 1200px;
+   max-width: 1200px;   */
   width: 100%;
   margin: 0 auto;
   padding-top: 5%;
   color: #fff;
 }
+/* body{
+  overflow-x: hidden;
+} */
 .foot2 {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  flex-wrap: wrap!important;
+  width: 98.9vw;
+  /* min-width:1200px; */
+  justify-content: space-around;
   border-bottom: 1px solid #4d4d4d;
 }
 .uList li {
@@ -48,6 +60,9 @@
   flex-wrap: wrap;
   margin: 10% 0;
 }
+.fddf{
+  flex-basis: 20%;
+}
 .flex {
   display: flex;
   justify-content: space-between;
@@ -62,16 +77,16 @@
   transform: scale(1.5);
   cursor: pointer;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 1200px) {
   .foot2 {
-    flex-wrap: wrap;
-    width: 492px;
+    /* flex-wrap: wrap; */
+    /* width: 492px; */
     justify-content: space-between;
   }
-  .fddf {
-    margin-left: 5%;
-    flex-basis: 40%;
-  }
+  /* .fddf { */
+    /* margin-left: 5%;
+    flex-basis: 30%; */
+  /* } */
   /* .pflex{
       
     } */
@@ -80,8 +95,8 @@
     width: 150px;
   }
   .foot {
-    width: 100%;
-    overflow-x: hidden;
+    /* width: 100%; */
+    /* overflow-x: hidden; */
   }
   /* *{
     outline: 2px solid red;

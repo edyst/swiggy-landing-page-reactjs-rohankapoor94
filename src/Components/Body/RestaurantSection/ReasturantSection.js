@@ -5,7 +5,7 @@ import Android from "./pixel.webp";
 import iPhone from "./iPhone.webp";
 const ReasturantSection = () => {
   return (
-    <div className="rs" >
+    <div className="rs">
       <div className="rest">
         <div className="in">
           <div className="pocket">Restaurants in your pocket</div>
@@ -16,8 +16,8 @@ const ReasturantSection = () => {
           <Play />
         </div>
         <div className="out">
-          <img src={Android} className="and" alt="" />
-          <img src={iPhone} className="ip" alt="" />
+            <img src={Android} className="and resp"  alt="" />
+            <img src={iPhone} className="ip resp"  alt="" />
         </div>
       </div>
     </div>

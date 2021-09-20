@@ -31,7 +31,7 @@
 .btn1:hover{
     background-color: #d2d3da;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 1200px) {
     .city::placeholder{
         color: #fff;
     }

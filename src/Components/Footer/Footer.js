@@ -66,8 +66,8 @@ const Footer = () => {
               alt=" "
             />
           </div>
-          <div style={{ fontSize: "24px" }}>© 2021 Swiggy</div>
-          <div style={{ width: "15%" }}>
+          <div className="fddf" style={{ fontSize: "24px" }}>© 2021 Swiggy</div>
+          <div className="fddf" style={{ width: "15%" }}>
             <i className="fab fa-facebook-f"> </i>
             <i className="fab fa-pinterest-p"> </i>
             <i className="fab fa-instagram"> </i>
