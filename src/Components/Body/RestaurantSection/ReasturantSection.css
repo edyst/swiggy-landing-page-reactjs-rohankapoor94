@@ -2,6 +2,9 @@
   height: 570px;
   position: relative;
 }
+/* *{
+  outline: 2px solid red;
+} */
 .pocket {
   font-size: 40px;
   font-weight: 600;
@@ -48,9 +51,7 @@
 @media only screen and (max-width: 1200px) {
   .rs {
     height: max-content;
-    /* width: 100vw; */
-
-    width: 90vw;
+    width: 50vw;
   }
   .rest {
     flex-wrap: wrap;
@@ -59,9 +60,14 @@
   }
   .out {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    margin: 0;
   }
+  /* *{
+    outline: 2px solid red;
+  } */
   .ip {
+
     position: unset;
     /* display: none; */
   }
@@ -70,9 +76,11 @@
   }
   .order {
     text-align: center;
+    width: max-content;
   }
   .pocket{
-    width: 420px;
+    width: max-content;
+    /* text-align: center; */
   font-size: 35px;
   }
   .and,
@@ -91,5 +99,28 @@
     margin: 0% auto;
     align-items: center;
     width: 90vw;
+  }
+  .pocket{
+    width:100vw;
+    font-size:1.5em;
+    text-align: center;
+  }
+  .order{
+    width: 100vw;
+  }
+  .out{
+    width: fit-content;
+    /* position: unset; */
+  }
+  .and{
+    display:none;
+  }
+  .ip{
+    width: 50vw;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .ip{
+    width: 60vw;
   }
 }

@@ -3,8 +3,8 @@
   background-color: #000;
   padding-bottom: 4%;
   /* outline: 2px solid red; */
-  width: max-content;
-  overflow-x: hidden;
+  /* width: max-content; */
+  /* overflow-: hidden; */
   /* width: 99vw; */
 }
 /* *{
@@ -84,26 +84,18 @@ a {
   cursor: pointer;
 }
 @media only screen and (max-width: 1200px) {
+  
   .foot2 {
     /* flex-wrap: wrap; */
     /* width: 492px; */
     justify-content: space-between;
+    /* overflow: hidden; */
   }
-  /* .fddf { */
-  /* margin-left: 5%;
-    flex-basis: 30%; */
-  /* } */
-  /* .pflex{
-      
-    } */
+  .foot{
+    overflow: hidden;
+  }
   .head {
     margin-left: 2%;
     width: 150px;
   }
-
-  /* *{
-    outline: 2px solid red;
-  } */
-  /* .foot {
-  } */
 }

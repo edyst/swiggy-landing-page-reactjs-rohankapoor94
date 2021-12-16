@@ -2,7 +2,7 @@ import React from "react";
 import "./PopCity.css";
 const PopCity = () => {
   return (
-    <div>
+    <div className="pphide">
       <h3 className="pop grey">Popular cities in India</h3>
       <ul className="ulist">
         <li> Ahmedabad </li>

@@ -17,7 +17,7 @@ const ReasturantSection = () => {
         </div>
         <div className="out">
             <img src={Android} className="and resp"  alt="" />
-            <img src={iPhone} className="ip resp"  alt="" />
+            <img src={iPhone} className="ip resp"  alt="" /> 
         </div>
       </div>
     </div>
